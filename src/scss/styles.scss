@@ -1,0 +1,11 @@
+// Both of these are for Bootstrap
+//@import "custom"; // This is to import "_custom.scss", the file to override bootstrap defaults.
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}

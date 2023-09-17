@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    /> -->
+  </head>
+  <body>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-electron-list" data-bs-toggle="list" href="#list-electron" role="tab" aria-controls="home">Electron</a>
+          <a class="list-group-item list-group-item-action" id="list-bootstrap-list" data-bs-toggle="list" href="#list-bootstrap" role="tab" aria-controls="profile">Bootstrap</a>
+          <a class="list-group-item list-group-item-action" id="list-npm-list" data-bs-toggle="list" href="#list-npm" role="tab" aria-controls="messages">NPM</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-electron" role="tabpanel" aria-labelledby="list-electron-list">
+            Check <a href="https://www.electronjs.org/" target="_blank">Electron website</a> to discover even more about all the possibilities! 🙀
+          </div>
+          <div class="tab-pane fade" id="list-bootstrap" role="tabpanel" aria-labelledby="list-bootstrap-list">
+            Here you can find the <a href="https://getbootstrap.com/docs/5.0/getting-started/webpack/" target="_blank">Official Bootstrap documentation</a> 🤓
+          </div>
+          <div class="tab-pane fade" id="list-npm" role="tabpanel" aria-labelledby="list-npm-list">
+            and here is <a href="https://www.npmjs.com/" target="_blank">NPM</a>, in case you forgot?
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
